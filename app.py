@@ -3,7 +3,11 @@ class Person:
        self.name = name
        self.age = age
 name = input("Enter Your Name :")
-age = input(int("Enter you Age :"))
+age = int(input("Enter you Age :"))
+p1 = Person(name, age)
  
-print()        
+print(p1)        
+       
+       
+       
        
